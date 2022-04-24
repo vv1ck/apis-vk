@@ -1,0 +1,13 @@
+( API ) login > Email:password
+
+url = 'https://api.vk.com/oauth/token?2fa_supported=1&client_id=3140623&client_secret=VeWdmVclDCtn6ihuP1nt&device_id=A932B478-42B0-4A2D-BEE0-922D3151E0E2&grant_type=password&password='+password+'&scope=all&username='+email+'&v=5.145'
+
+headers={
+	'Host': 'api.vk.com',
+	'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
+	'Accept': '*/*',
+	'User-Agent': 'com.vk.vkclient/1554 (iPhone, iOS 14.6, iPhone11,2, Scale/3.0)',
+	'Accept-Language': 'en',
+	'Connection': 'keep-alive'}
+
+request >> get
