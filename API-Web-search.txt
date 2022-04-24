@@ -1,0 +1,5 @@
+( API-Web ) search (username)
+
+url = 'https://m.vk.com/'+username
+
+request >> get
