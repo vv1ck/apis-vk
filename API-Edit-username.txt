@@ -1,0 +1,14 @@
+( API ) Swap >> Username Editing
+
+url = 'https://api.vk.com/method/account.saveProfileInfo?lang=en&screen_name='+username+'&v=5.145'
+
+headers={
+	'Host': 'api.vk.com',
+	'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
+	'Accept-Language': 'ar',
+	'Accept': 'image/webp',
+	'User-Agent': 'com.vk.vkclient/2990 (iPhone, iOS 14.6, iPhone11,2, Scale/3.0)',
+	'Authorization': 'Bearer '+Token,
+	'Connection': 'keep-alive'}
+
+request >> get
